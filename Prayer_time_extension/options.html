@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Options Menu</title>
+       <link  rel= "stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div>
+            <form>
+                <label for="City">Enter your location</label><br>
+                <input type="text" name="City" id="City"><br><br>
+
+                <label for="Country">Enter your Country</label><br>
+                <input type="text" name="Country" id="Country"><br><br>
+                
+                <label for="Reminder">Please choose the time for your Reminder</label><br>
+                
+                <input type="radio" name="reminder_time" id="NoReminder" value="0">
+                <label for="NoReminder">No Reminder</label><br>
+
+                <input type="radio" name="reminder_time" id="five" value="5">
+                <label for="five">5 minutes</label><br>
+
+                <input type="radio" name="reminder_time" id="ten" value="10">
+                <label for="ten">10 minutes</label><br>
+
+                <input type="radio" name="reminder_time" id="fifteen" value="15">
+                <label for="fifteen">15 minutes</label><br>
+                
+                <input type="radio" name="reminder_time" id="twenty" value="20">
+                <label for="twenty">20 minutes</label><br>
+
+                <input type="radio" name="reminder_time" id="thirty" value="30">
+                <label for="thirty">30 minutes</label><br><br>
+
+                <input type="submit" value="Save Settings">
+
+            </form>
+        </div>
+    <script src="popup.js"></script>
+    </body>
+</html>

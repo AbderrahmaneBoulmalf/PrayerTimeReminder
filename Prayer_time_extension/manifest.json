@@ -1,0 +1,43 @@
+
+{
+    "manifest_version": 3,
+    "name": "Prayer Time Notifier",
+    "version": "1.0",
+    "description": "A Chrome extension that notifies Muslim users of upcoming prayer times.",
+    "permissions": [
+      "alarms",
+      "notifications",
+      "storage",
+      "geolocation"
+    ],
+    "background": {
+      "service_worker": "backend.js"
+    },
+
+    "action": {
+      "default_popup": "options.html",
+      "default_icon": {    
+        "128": "icons/hassan2.png"
+      }
+    },
+   
+    "icons": {
+      "16": "icons/call_to_prayer.png",
+      "48": "icons/crescent.png",     
+      "128": "icons/hassan2.png",
+      "16": "icons/error.png"
+    },
+
+    "host_permissions": [
+      "https://api.aladhan.com/"
+    ],
+
+    "web_accessible_resources": [
+      {
+        "resources": ["icons/*.png"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
+  

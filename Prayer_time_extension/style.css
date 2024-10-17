@@ -1,0 +1,30 @@
+/* General Styling for Popup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #5ae28c;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-size: 16px; /* Make the font size larger for readability */
+    overflow: hidden; /* Prevent unwanted scrolling */
+}
+
+/* Container for the form */
+div {
+    background-color: rgb(143, 234, 153);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;  /* Ensure it fits within the popup window */
+    box-sizing: border-box;
+}
+
+
+
+    label, input[type="submit"] {
+        font-size: 0.9em;
+    }
+
