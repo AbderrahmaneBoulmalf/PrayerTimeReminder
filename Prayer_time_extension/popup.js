@@ -10,9 +10,9 @@ function saveSettings(event)
     const reminder = document.querySelector('input[name="reminder_time"]:checked').value;
 
     chrome.storage.local.set({
-        city : city,
-        country : country,
-        reminder : reminder
+        city : city.value,
+        country : country.value,
+        reminder : reminder.value
 
     }, () =>{
         alert('Settings saved successfully!');
